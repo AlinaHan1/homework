@@ -5,8 +5,8 @@ my_dict = {'Alina': 1989,
            'Dania': 1993}
 print(my_dict)
 print(my_dict['Olga'])
-my_dict['Anastasia'] = 1999
-print(my_dict['Anastasia'])
+#my_dict['Anastasia'] = 1999
+print(my_dict.get('Anastasia'))
 my_dict.update({'Max': 1999,
                 'Andrey': 1956})
 a = my_dict.pop('Alina')
